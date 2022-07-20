@@ -123,3 +123,36 @@ button {
     flex-wrap: wrap;
     text-align: center;
 }
+
+/* INFO SECTION STYLING FIN */
+
+
+
+
+/* QUOTE SECTION STYLING START */
+
+.quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.quote-content {
+    padding: 120px;
+}
+
+.quote-txt {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-by {
+    font-size: 30px;
+    color: #1f2937;
+    padding-left: 1000px;
+}
+
+/* INFO SECTION STYLING FIN */
