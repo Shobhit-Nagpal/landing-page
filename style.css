@@ -2,6 +2,8 @@
     font-family: 'Helvetica', 'Verdana', sans-serif;
 }
 
+/* HEADER SECTION STYLING START */
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -66,8 +68,58 @@ button {
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 10px;
+    border: none;
 }
-img {
+.hero-img {
     max-width: 720px;
     max-height: 720px;
+}
+
+
+/* HEADER SECTION STYLING FIN */
+
+
+
+
+/* INFO SECTION STYLING START */
+
+.info {
+    background-color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.info-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.info-img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.info-txt {
+    max-width: 200px;
+    text-align: center;
+    margin-top: 15px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.image {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
 }
