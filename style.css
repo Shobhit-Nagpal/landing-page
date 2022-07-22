@@ -2,6 +2,11 @@
     font-family: 'Helvetica', 'Verdana', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER SECTION STYLING START */
 
 .header {
@@ -114,7 +119,7 @@ button {
     max-width: 200px;
     text-align: center;
     margin-top: 15px;
-    color: #e5e7eb;
+    color: #1f2937;
     font-size: 18px;
 }
 
@@ -156,3 +161,45 @@ button {
 }
 
 /* INFO SECTION STYLING FIN */
+
+
+/*CTA SECTION STYLING START */
+
+.box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 350px;
+    padding: 30px;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.cta-content {
+    margin-left: 50px;
+}
+
+.cta-button {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.cta-btn {
+    border: 2px solid #e5e7eb;
+}
+
+/*CTA SECTION STYLING FIN */
+
+
+/*FOOTER SECTION STYLING START */
+
+.footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #e5e7eb;
+}
